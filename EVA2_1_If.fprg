@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Eclip"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-09 05:21:31 PM"/>
+        <attribute name="created" value="RWNsaXA7TVNJOzIwMjMtMTAtMDk7MDU6MDU6MDkgUE07MjAwNg=="/>
+        <attribute name="edited" value="RWNsaXA7TVNJOzIwMjMtMTAtMDk7MDU6MjE6MzEgUE07MTsyMTA3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="califa" type="Integer" array="False" size=""/>
+            <output expression="&quot;Ingrese su calificacion&quot;" newline="True"/>
+            <input variable="califa"/>
+            <if expression="califa &gt;= 70">
+                <then>
+                    <output expression="&quot;Aprobo&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Reprobo&quot;" newline="True"/>
+                </else>
+            </if>
+            <output expression="&quot;Fin del Programa&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
